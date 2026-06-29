@@ -1,0 +1,109 @@
+
+body {
+/* background-color: #1E1E1E !important; */
+background-image: url('/Elementos/Img/Portfolio_web.png') !important;
+    background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se duplique como mosaico */
+    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    height: 120px;
+    padding: 20px;
+    margin: 0px 0px 15px 0px;
+    font-size: 25px;
+}
+
+.botones {
+    display: flex;
+    gap: 150px;
+}
+
+.enlaces {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.enlaces:hover {
+    color: #E2232C;
+    text-decoration: underline;
+}
+
+/* PROYECTO */
+.Título{
+    color: white;
+    margin-left: 50px;
+}
+
+.Info{
+    color: white;
+    margin-left: 50px;
+}
+
+/* SUBTÍTULOS */
+.subtitulo{
+    color: white;
+    margin-left: 50px;
+}
+
+/* BLOQUES DE TEXTO */
+.infotext{
+    display: flex;
+    color: white;
+    justify-content: left;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    background-color: #1E1E1E;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+/* IMAGENES CENTRADAS */
+.ImagenProyecto1{
+    display: flex;
+    justify-content: center;
+}
+
+.introduccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.desarrollo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+
+/* CARRUSELES */
+.carousel-item{
+    height: 50vh;
+}
+.carousel-item img {
+    height: 75%;
+}
+
+/* LOGO FINAL */
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.TítuloFinal{
+    display: flex;
+    justify-content: center;
+    color: #E2232C;
+    text-decoration: underline;
+    background-color: #1E1E1E;
+}

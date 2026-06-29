@@ -1,0 +1,130 @@
+body {
+/* background-color: #1E1E1E !important; */
+background-image: url('/Elementos/Img/Portfolio_web.png') !important;
+    background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se duplique como mosaico */
+    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    height: 120px;
+    padding: 20px;
+    margin: 0px 0px 15px 0px;
+    font-size: 25px;
+}
+
+.botones {
+    display: flex;
+    gap: 150px;
+}
+
+.enlaces {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.enlaces:hover {
+    color: #E2232C;
+    text-decoration: underline;
+}
+
+/* Primer bloque de información */
+.info1{
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 50px 0px 50px;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+.infotext1{
+    background-color: #1E1E1E;
+    border-radius: 5%;
+    width: 550px;
+    height: 300px;
+    margin: 100px 0px 0px 100px;
+    padding: 10px;
+    align-content: center;
+    color: white;
+}
+
+.infoimg1{
+    justify-content: right;
+    margin: 80px 250px 0px 0px;
+}
+
+.Programas{
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 150px 300px;
+}
+
+.prog{
+    margin: 5px 20px 0px;
+}
+
+/* Segundo bloque de información */
+.info2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+.infoimg2{
+justify-content: left;
+margin: 0px 0px 0px 150px;
+}
+
+.infotext2{
+background-color: #1E1E1E;
+border-radius: 5%;
+width: 550px;
+height: 100px;
+margin: 150px 250px 0px 0px;
+padding: 10px;
+align-content: center;
+color: white;
+}
+
+/* Tercer bloque de información */
+.info3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px 50px 0px; 
+    padding: 20px;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+.infotext3{
+    background-color: #1E1E1E;
+    border-radius: 5%;
+    width: 550px;
+    height: 80px;
+    margin: 100px 0px 0px 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.final{
+justify-content: center;
+text-align: center;
+margin: 50px;
+} 

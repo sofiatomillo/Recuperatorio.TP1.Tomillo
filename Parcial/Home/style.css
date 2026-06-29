@@ -1,0 +1,81 @@
+/* No se cambia el color de fondo */
+body {
+/* background-color: #1E1E1E !important; */
+background-image: url('/Elementos/Img/Portfolio_web.png') !important;
+    background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se duplique como mosaico */
+    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    height: 120px;
+    padding: 20px;
+    margin: 0px 0px 15px 0px;
+    font-size: 25px;
+}
+
+.botones {
+    display: flex;
+    gap: 150px;
+}
+
+.enlaces {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.enlaces:hover {
+    color: #E2232C;
+    text-decoration: underline;
+}
+
+.banner {
+display: flex;
+    justify-content:center;
+    margin: 50px 50px 50px 400px;
+    background-color: #1E1E1E;
+    width: 1120px;
+    height: 538px;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: #E2232C;
+    width: 353px;
+    height: 538px;
+    padding: 10px;
+    line-height: 1rem;
+    border-radius: 10px;
+}
+
+.nombre {
+    text-align: center;
+}
+
+.foto {
+    margin: 10px 0 20px;
+}
+
+
+.info2 {
+    color: white;
+    align-content: center;
+    padding: 20px;
+}
+
+.atributos {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.cont {
+    margin-left: 20px;
+    padding: 5px;
+}
